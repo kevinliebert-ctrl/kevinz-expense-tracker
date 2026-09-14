@@ -18,4 +18,4 @@ Tujuannya untuk membantu mencatat pemasukan dan pengeluaran, sekaligus menampilk
 ## 🚀 Cara Menjalankan
 1. Clone repository ini:
    ```bash
-   git clone https://kevinliebert-ctrl.github.io/kevinz-expense-tracker/
+   https://kevinliebert-ctrl.github.io/kevinz-expense-tracker/
