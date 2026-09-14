@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Keuangan Kevin</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Aplikasi Keuangan</h1>
+  </header>
+
+  <main>
+    <!-- Form Transaksi -->
+    <section>
+      <h2>Tambah / Edit Transaksi</h2>
+      <form id="transactionForm">
+        <input type="text" id="title" placeholder="Judul transaksi" required>
+        <input type="number" id="amount" placeholder="Nominal (Rp)" required>
+        <input type="date" id="date" required>
+        <select id="type">
+          <option value="income">Pemasukan</option>
+          <option value="expense">Pengeluaran</option>
+        </select>
+        <button type="submit">Simpan</button>
+      </form>
+    </section>
+
+    <!-- Ringkasan -->
+    <section class="dashboard">
+      <div><p id="balance">Saldo: Rp0</p></div>
+      <div><p id="incomeTotal">Total Pemasukan: Rp0</p></div>
+      <div><p id="expenseTotal">Total Pengeluaran: Rp0</p></div>
+    </section>
+
+    <!-- Pencarian -->
+    <section>
+      <h2>Pencarian Transaksi</h2>
+      <input type="text" id="search" placeholder="Cari transaksi...">
+    </section>
+
+    <!-- Daftar Transaksi -->
+    <section>
+      <h2>Daftar Pemasukan</h2>
+      <div id="incomeList"></div>
+
+      <h2>Daftar Pengeluaran</h2>
+      <div id="expenseList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Kevin Harris Mulyana | Aplikasi Keuangan</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
