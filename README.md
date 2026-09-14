@@ -18,7 +18,7 @@ Tujuannya untuk membantu mencatat pemasukan dan pengeluaran, sekaligus menampilk
 ## 🚀 Cara Menjalankan
 1. Clone repository ini:
    ```bash
-   git clone https://kevinliebert-ctrl.github.io/kevinz-expense-tracker/
+   git clone  https://kevinliebert-ctrl.github.io/kevinz-expense-tracker/
 
    ## 👤 Tentang Penulis
 Saya **Kevin Harris Mulyana**, mahasiswa baru jurusan Informatika yang sedang belajar web development.  
